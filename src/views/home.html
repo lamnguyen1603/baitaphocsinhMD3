@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<a href="/home">Home</a>
+<a>&nbsp;&nbsp;&nbsp;</a>
+<a href="/create">Add</a>
+<br>
+<br>
+<form action="/home" method="post">
+    <input class="form-control me-2" type="search" placeholder="Search" name="search" id="search" style="width: 259px">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+<br>
+<table border="1">
+    <tr>
+        <td>STT</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Address</td>
+        <td>Grade</td>
+        <td colspan="2"></td>
+    </tr>
+    <tbody>
+    {student}
+    </tbody>
+
+</table>
+</body>
+</html>
